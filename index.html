@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <!-- ================  Google Fonts  ================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ================   fontawesome css  ================ -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ================   bootstrap css  ================-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- ================   main-file-css  ================-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--================   Start navbar Section  ================-->
+
+    <nav d-flex pos>
+      <div class="container">
+        <div class="image">
+          <img src="images/logo.png" alt="logo" />
+          <span> Weather-App</span>
+        </div>
+      </div>
+    </nav>
+
+    <!--================   End navbar Section  ================-->
+
+    <!--================   Start Main Section  ================-->
+    <section>
+      <div class="container">
+        <div class="find-location">
+          <input
+            class="search-input"
+            id="search-input"
+            type="text"
+            placeholder="Find your location..."
+          />
+          <input class="submit" id="submit" type="button" value="Find" />
+        </div>
+        <div class="row">
+          
+          <div class="col-md-4" id="cureent">
+            <div class="box">
+              <div class="head">
+                <div class="day"   >
+                  <span id="dayf1"></span>
+                </div>
+                <div class="time" id="time">
+                  12:30 <span id="am-pm" >pm</span>
+                </div>
+                <div class="date">
+                  <span id="date" ></span>
+                </div>
+              </div>
+              <div class="body">
+                <div class="location" id="time-zone" >Giza</div>
+                <div class="degree">
+                  <div class="today-am" id="temp-am-1">37.3<sup>o</sup>C</div>
+                  <div class="icon">
+                    <div id="suny_night" >
+                      <img src="images/suny-icon.svg" alt="icon" />
+                    </div>
+                    
+                    <!-- <img src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="Weather Icon"> -->
+                  <div class="today-pm" id="temp-pm-1"><sup>o</sup>C</div>
+                  </div>
+
+                  <div class="Weather-type" id="weather-type-1 ">suny</div>
+
+                  <span
+                    ><img
+                      src="images/icon-umberella.png"
+                      alt="icon-umberella"
+                    />20%</span
+                  >
+                  <span id="maxWind1"
+                    ><img
+                      src="images/icon-wind.png"
+                      alt="icon-wind"
+                    />18km/h</span
+                  >
+                  <span
+                    ><img
+                      src="images/icon-compass.png"
+                      alt="icon-compass"
+                    />East</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" id="weatherForcast">
+            <div class="box">
+              <div class="head justify-content-center "  >
+                <div class="day"   >
+                  <span id="dayf2"></span>
+                </div>
+              </div>
+              <div class="body">
+                <!-- <div class="location" id="time-zone" >Cairo</div> -->
+                <div class="degree">
+                  <div class="today-am" id="temp-am-2">37.3<sup>o</sup>C</div>
+                  <div class="icon">
+                    <div id="suny_night2" >
+                      <img src="images/suny-icon.svg" alt="icon" />
+                    </div>
+                    
+                    <!-- <img src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="Weather Icon"> -->
+                  <div class="today-pm" id="temp-pm-2"><sup>o</sup>C</div>
+                  </div>
+
+                  <div class="Weather-type" id="weather-type-2">suny</div>
+
+                  <span
+                    ><img
+                      src="images/icon-umberella.png"
+                      alt="icon-umberella"
+                    />20%</span
+                  >
+                  <span id="maxWind2"
+                    ><img
+                      src="images/icon-wind.png"
+                      alt="icon-wind"
+                    />18km/h</span
+                  >
+                  <span
+                    ><img
+                      src="images/icon-compass.png"
+                      alt="icon-compass"
+                    />East</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4" id="weatherForcast">
+            <div class="box">
+              <div class="head justify-content-center">
+                <div class="day"   >
+                  <span id="dayf3"></span>
+                </div>
+                
+              </div>
+              <div class="body">
+                <!-- <div class="location" id="time-zone" >Cairo</div> -->
+                <div class="degree">
+                  <div class="today-am" id="temp-am-3">37.3<sup>o</sup>C</div>
+                  <div class="icon">
+                    <div id="suny_night3" >
+                      <img src="images/suny-icon.svg" alt="icon" />
+                    </div>
+                    
+                    <!-- <img src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="Weather Icon"> -->
+                  <div class="today-pm" id="temp-pm-3"><sup>o</sup>C</div>
+                  </div>
+
+                  <div class="Weather-type" id="weather-type-3">suny</div>
+
+                  <span
+                    ><img
+                      src="images/icon-umberella.png"
+                      alt="icon-umberella"
+                    />20%</span
+                  >
+                  <span id="maxWind3"
+                    ><img
+                      src="images/icon-wind.png"
+                      alt="icon-wind"
+                    />18km/h</span
+                  >
+                  <span
+                    ><img
+                      src="images/icon-compass.png"
+                      alt="icon-compass"
+                    />East</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- weatherForcast -->
+        </div>
+      </div>
+    </section>
+    <!--================   End Main Section  ================-->
+
+    <!-- ================   bootstrap js  ================-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- ================   fontawesome js  ================ -->
+    <script src="js/all.min.js"></script>
+    <!-- ================   main-file-js  ================-->
+    <script src="js/main.js"></script>
+  </body>
+</html>

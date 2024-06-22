@@ -1,0 +1,155 @@
+/* ================= Start Reset ================= */
+*::before,::after {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+/* ================= End Reset ================= */
+
+/* ================= Start Navbar ================= */
+nav {
+  background-color: rgba(255, 255, 255, 0.3);
+  position: fixed;
+  width: 100%;
+
+  height: 75px;
+}
+nav .container {
+  height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .image {
+  width: 266px;
+  height: 100%;
+}
+
+nav .image img {
+  width: 127px;
+    height: 70px;
+}
+
+nav span {
+  font-size: 23px;
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+}
+/* ================= End Navbar ================= */
+
+
+/*------------------------------------------------------------ 
+==============Start===========>> Menu
+------------------------------------------------------------*/
+section {
+  background-image: url(../images/rainy.jpg);
+  background-position: center center ;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 73px;
+}
+
+section .container {
+  padding-top: 50px;
+}
+
+section .find-location {
+position: relative;
+width: 100%;
+margin-top: 75px;
+}
+
+section .find-location input {
+  outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+section .find-location .search-input {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+}
+
+section .find-location .submit {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  color: #fff;
+  padding: 0 40px;
+  background: #009ad8;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+.box {
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+    border-radius: 35px;
+}
+
+.box .head {
+  display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.box .body {
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.box .body .location {
+  font-size: 26px;
+}
+
+.box .body .today-am {
+  font-size: 63px;
+}
+
+.box .body .icon {
+  width: 100px;
+  display: flex;
+}
+
+.box .body .Weather-type {
+  font-size: 23px;
+  color: #009ad8;
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box .body span {
+  margin-right: 10px;
+}
+
+.box .body span img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
+
+
+
+/*------------------------------------------------------------ 
+==============End=============>> Menu
+------------------------------------------------------------*/
